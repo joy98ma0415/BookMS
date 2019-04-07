@@ -1,0 +1,115 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, div, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+#MasMain {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    border: solid 1px #cc6;
+}
+
+#MasTop {
+    height: 90px;
+    width: 960px;
+}
+
+    #MasTop img {
+        border: 0px;
+    }
+
+#MasNav {
+    width: 960px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    background-color: #cc6;
+}
+
+    #MasNav a {
+        display: block;
+        float: left;
+        width: 100px;
+        height: 30px;
+        margin: 0 3px 0 0;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+
+        #MasNav a:hover {
+            background-color: #996;
+            color: #fff;
+        }
+
+#MasFooter {
+    width: 960px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 25px;
+    background-color: #cc6;
+    text-align: center;
+}
+
+#DefMain, #BorrowBookMain, #BorrowMain, #ReturnBookMain, #SuggestPlaceMain, #ManagePlaceMain, #AdminMain {
+    width: 960px;
+    background-color: #fff;
+}
+
+#BorrowBookMain, #BorrowMain, #ReturnBookMain {
+    padding: 3px 0 0 0;
+    line-height: 30px;
+}
+
+    #BorrowBookMain a {
+        color: #9c6;
+        text-decoration: none;
+    }
+
+        #BorrowBookMain a:hover {
+            color: #c96;
+        }
+
+    #BorrowMain #DataList1 {
+        line-height: 40px;
+        font-size: 12px;
+    }
+
+#DefUser, #ManegLogin {
+    width: 300px;
+    height: 150px;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 50px auto 30px auto;
+    text-align: center;
+}
+
+#AdminNav {
+    width: 200px;
+}
+
+    #AdminNav a {
+        display: block;
+        width: 200px;
+        height: 70px;
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #cc6;
+        line-height: 70px;
+        text-align: center;
+        color: #000;
+        border-bottom: #000 1px solid;
+        border-top: #000 1px solid;
+    }
+
+        #AdminNav a:hover {
+            color: #fff;
+            background-color: #996;
+        }
